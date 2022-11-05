@@ -24,6 +24,8 @@ void snap_store_kill() {
   execlp(path, path, arg1, (char *) NULL);
 }
 
+/* child process immediately runs the child function.
+   parent process waits for the child to finish */
 int fork_then(void (*child)(), void (*parent)()) {
   if (fork()) {
     int wstatus;
