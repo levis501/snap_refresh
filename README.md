@@ -1,6 +1,8 @@
 # snap_refresh
 ## One-shot update for snaps
 
+*When firefox tells me there is a snap update, I shutdown firefox at my next convenience, then click this button.  Snaps are refreshed.  Then, I can start firefox again and get back to work.*
+
 ### This repository contains the source files for two tools
 
 `snap_refresh` - a command line tool to restart the snap-store and refresh any available snaps
