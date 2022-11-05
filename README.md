@@ -25,4 +25,6 @@
 
 `  cp snap_refresh.desktop ~/.local/share/applications`
 
-### If the command line tool is installed in a different location change the relevant line in the snap_refresh.desktop file.
+### Notes:
+- If the command line tool is installed in a different location change the relevant line in the `snap_refresh.desktop` file.
+- If you're only running from the command line, you can skip the chown & chmod steps and just `sudo snap_refresh`
