@@ -15,9 +15,6 @@
 
 `  sudo chown root snap_refresh`
 
-`  sudo chmod u+s snap_refresh`
-
-
 ### Install to /usr/bin (or your preferred location) with:
 
 `  sudo mv snap_refresh /usr/bin`
